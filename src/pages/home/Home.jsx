@@ -12,10 +12,13 @@ const Home = () => {
       />
       <h1 className="home-title">World Computing Organization</h1>
       <p className="home-description">
-        Welcome to the World Computing Organization. Our club is dedicated to
-        fostering a community of tech enthusiasts and professionals. Join us to
-        learn, share, and grow together in the world of computing.
+        We unite Computer Science and Business majors to collaborate on
+        innovative projects, host career-focused workshops, and help each other
+        succeed in the ever-evolving tech industry.
       </p>
+      <button class="ui-btn">
+        <span>Join Now</span>
+      </button>
     </div>
   );
 };
