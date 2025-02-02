@@ -1,38 +1,45 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
-import "./header.css"; // Make sure to create a CSS file for styling
+import "./header.css";
+import wcosmall from "../../assets/wcosmall.png";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img src="/logo.png" alt="Logo" />
+        <Link to="/">
+          <img src={wcosmall} alt="Logo" className="logo-img" />
+        </Link>
       </div>
       <nav className="nav">
         <ul>
           <li>
-            <a href="#overview">Overview</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <Link to="/overview">Overview</Link>
           </li>
           <li>
-            <a href="#sponsors">Sponsors</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#events">Events</a>
+            <Link to="/sponsors">Sponsors</Link>
           </li>
           <li>
-            <a href="#join">Join</a>
+            <Link to="/events">Events</Link>
           </li>
           <li>
-            <a href="#connect">Connect</a>
+            <Link to="/join">Join</Link>
           </li>
           <li>
-            <a href="#board">Board</a>
+            <Link to="/connect">Connect</Link>
           </li>
           <li>
-            <a href="#resources">Resources</a>
+            <Link to="/board">Board</Link>
+          </li>
+          <li>
+            <Link to="/resources">Resources</Link>
           </li>
         </ul>
       </nav>

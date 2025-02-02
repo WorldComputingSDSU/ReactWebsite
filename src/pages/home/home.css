@@ -1,0 +1,25 @@
+body {
+  background-color: #111111;
+}
+
+.home-description {
+  color: #ffffff;
+  max-width: 80vh;
+}
+
+.home-title {
+  color: #ffffff;
+}
+
+.home-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}

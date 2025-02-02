@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #111111;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -33,23 +33,32 @@
 
 .nav a {
   text-decoration: none;
-  color: #00ca03;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.3s ease;
   display: block;
 }
 
 .nav a:hover {
-  color: #007bff;
+  color: #5b5b5b;
 }
 
 .menu-icon {
   cursor: pointer;
-  color: #00ca03;
+  color: #ffffff;
   transition: color 0.3s ease;
   padding: 8px;
 }
 
 .menu-icon:hover {
-  color: #007bff;
+  color: #5b5b5b;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+.logo-img:hover {
+  cursor: pointer;
 }
